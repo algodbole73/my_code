@@ -27,5 +27,5 @@ app.include_router(vote.router)
 
 @app.get("/")
 def get_user():
-    return {"message": "Get fast api call"}
+    return {"message": "Hello World!!!!"}
 
