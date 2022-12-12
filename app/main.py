@@ -27,5 +27,5 @@ app.include_router(vote.router)
 
 @app.get("/")
 def get_user():
-    return {"message": "Hello World from xyz!!!!!!"}
+    return {"message": "Hello Amit from ubontu server with docker image!!!"}
 
